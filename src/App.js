@@ -1,15 +1,15 @@
-import React from 'react';
+import React from "react";
 
-import Meme from './Components/MemeGenerator'
+import Meme from "./Components/engine/formText";
 
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div>
       <Meme />
     </div>
-  )
+  );
 }
 
 export default App;
